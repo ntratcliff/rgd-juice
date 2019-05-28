@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb082a5a98d78744b46b21ed0545730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FieldWidth: 10
+  FieldWidth: 13
   BlockSize: {x: 1, y: 0.5}
   BlockColumns: 10
   BlockRows: 7
