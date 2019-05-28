@@ -19,7 +19,11 @@ public class GameManager : MonoBehaviour
 	public Camera MainCamera;
 	public Paddle Paddle;
 
+	[HideInInspector]
 	public List<Block> Blocks;
+
+	[HideInInspector]
+	public int Score;
 
 	private void Awake()
 	{

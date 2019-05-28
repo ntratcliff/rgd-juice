@@ -2,15 +2,14 @@
 
 public class Block : MonoBehaviour
 {
-	// Start is called before the first frame update
-	void Start()
+	public int Value;
+
+	/// <summary>
+	/// Called when the ball hits the block
+	/// </summary>
+	public void Destroy(Ball from)
 	{
-
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
+		gameObject.SetActive(false); // hide block
+		GameManager.Instance.Score += Value;
 	}
 }
